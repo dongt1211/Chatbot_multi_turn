@@ -1,7 +1,7 @@
-python src/main.py \
+python /kaggle/working/Chatbot_multi_turn/src/main.py \
     --seed=0 \
     --mode="train" \
-    --data_dir="kaggle/output/data" \
+    --data_dir="/kaggle/working/data" \
     --train_prefix="train" \
     --valid_prefix="valid" \
     --model_type="gpt2" \
@@ -16,4 +16,4 @@ python src/main.py \
     --num_epochs=10 \
     --max_len=1024 \
     --max_turns=5 \
-    --ckpt_dir="saved_models"
+    --ckpt_dir="/kaggle/working/saved_models"
